@@ -1,0 +1,19 @@
+{
+  "name": "musa-611-final-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --verbose --color"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/jest-puppeteer-axe": "^5.4.0",
+    "eslint": "^8.27.0",
+    "http-server": "^14.1.1",
+    "jest-puppeteer": "^6.1.1",
+    "stylelint": "^14.14.1",
+    "stylelint-config-standard": "^29.0.0"
+  }
+}

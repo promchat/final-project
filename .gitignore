@@ -1,0 +1,5 @@
+node_modules/
+*.pyc
+
+opt/*
+!opt/.gitkeep
