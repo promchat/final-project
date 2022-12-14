@@ -1,0 +1,138 @@
+body{
+    background-color: #3d3d3d;
+}
+
+h1{
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    margin: auto;
+
+}
+
+#top-container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;   
+}
+
+#map{
+    margin-left: 15%;
+    width: 100%;
+    height: 100vh;
+    display:block;
+    position: absolute;
+    z-index: 1;
+}
+
+#panel{
+    position: relative;
+    margin-left: 0px;
+    width: 15%;
+    height: 100vh;
+    background-color: #585858 ;
+    z-index: 2;
+    
+}
+
+button{
+    height: 15px;
+    width: 120px;
+}
+
+#populationTable{
+    width: 100vh;
+    height: 100vh;
+}
+
+#card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width: 75px;
+    border-radius: 5%;
+    z-index: 2;
+    top: 10%;
+    left: 50%;
+    color: #292929;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    padding: 1%;
+    margin-top: 12%;
+    margin-left: 2%;
+    font-style: bold;
+    
+}
+
+#compare-card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width: 75px;
+    border-radius: 5%;
+    z-index: 2;
+    top: 10%;
+    left: 50%;
+    color: #292929;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    padding: 1%;
+    margin-top: 12%;
+    margin-left: 0.1%;
+    font-style: bold;
+    
+}
+
+#create-query{
+
+    top: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50%;
+    height: auto;
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#enter-year{
+    margin-top: 15px;
+    margin-left: 10px;
+    height: 25px;
+    width: 100px;
+    z-index: 2;
+}
+
+#splash{
+    position: relative;
+    margin-left: 75%;
+    width: 15%;
+    height: 100%;
+    background-color: #585858 ;
+    z-index: 2;
+
+}
+
+#submit-request{
+
+    height: fit-content;
+    width: fit-content;
+    color: black;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 2;
+}
+
+.table{
+    color: aliceblue;
+}
+
+
+

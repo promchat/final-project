@@ -1,0 +1,20 @@
+<div id="splash">
+        <div id="create-query">
+            <p><label for="enter-year">Enter Year:</label></p>
+            <textarea name="enter-year" id="enter-year" cols="8" rows="1"></textarea>
+
+            <p><label for="select-product">Choose Product</label></p>
+            <div id="select-product">
+
+            <input type="checkbox" id="acs" name="acs" value="acs">
+            <label for="acs"> American Community Survey </label><br>
+
+            <input type="checkbox" id="sf" name="sf" value="sf">
+            <label for="sf"> Summary File </label><br>
+
+            <button id="submit-request"></button>
+
+            </div>
+
+        </div>
+    </div>
